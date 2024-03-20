@@ -11,7 +11,7 @@ public class AgendaCursanti{
     private static AgendaCursanti instanta;
 
 
-    private AgendaCursanti(){
+    public AgendaCursanti(){
         File f=new File("DATE_UTILIZATOR.txt");
         ts=new TreeSet<>();
         if (f.exists()){
